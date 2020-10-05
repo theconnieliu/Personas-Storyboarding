@@ -1,1 +1,28 @@
 /* Put your style information here! */
+body {
+    background-color: #DDE5D6;
+}
+h1, h2, h3, p, ol, li {
+    font-family: 'Montserrat', sans-serif;
+    color: #505C5A
+}
+
+
+.title-accent {
+    font-weight: bold;
+}
+
+.interface-sketch {
+    border-radius: 20px;
+    width: 220px;
+}
+
+.empathy-card {
+    border-radius: 20px;
+    width: 400px;
+}
+
+.storyboard {
+    border-radius: 20px;
+    width: 800px;
+}
