@@ -56,9 +56,14 @@ h1, h2, h3, p, ol, li {
     margin-bottom: 50px;
 }
 
+.observation-cards {
+    display: flex;
+    justify-content: center;
+    
+}
+
 .card {
     background-color: #FAF7F2;
-    height: 10rem;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -67,9 +72,13 @@ h1, h2, h3, p, ol, li {
     color:#767D70;
     font-size: 12px;
     margin: 10px;
+    width: 250px;
 }
 
 .card-text {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     margin-top: 5px;
+    
 }
