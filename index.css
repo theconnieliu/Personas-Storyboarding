@@ -26,22 +26,30 @@ h1, h2, h3, p, ol, li {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.10));
 }
 
+.empathy-maps {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    max-width: 80%;
+}
 .empathy-card {
     display: flex;
     border-radius: 20px;
-    width: 550px;
-    margin-bottom: 50px;
+    width: 70%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.10));
+    margin: 15px;
+    
 }
-
-.storyboard {
+.storyboard-container {
+    display: flex;
+    justify-content: center;
+}
+.storyboard { 
     border-radius: 20px;
     width: 70%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.10));
     margin-bottom: 30px;
-    text-align: center;
-    display: block;
-    align-items: center;
+    
 }
 
 #motivated-monica {
@@ -56,7 +64,7 @@ h1, h2, h3, p, ol, li {
     margin-bottom: 50px;
 }
 
-.observation-cards {
+.observation-cards, .interview-cards {
     display: flex;
     justify-content: center;
     
