@@ -29,13 +29,14 @@ h1, h2, h3, p, ol, li {
 .empathy-maps {
     display: flex;
     justify-content: center;
-    margin: 40px;
+    padding: 20px 140px 0 140px;
     max-width: 80%;
 }
 .empathy-card {
     display: flex;
     border-radius: 20px;
-    width: 70%;
+    max-width: 70%;
+    
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.10));
     margin: 15px;
     
