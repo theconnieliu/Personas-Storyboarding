@@ -72,6 +72,10 @@ h1, h2, h3, p, ol, li, footer {
     
 }
 
+#interview {
+    width: 300px;
+}
+
 .card {
     background-color: #FAF7F2;
     border-radius: 20px;
