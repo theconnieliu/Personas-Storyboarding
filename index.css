@@ -8,7 +8,7 @@ body {
     background-color: #DDE5D6;
     line-height: 1.5em;
 }
-h1, h2, h3, p, ol, li {
+h1, h2, h3, p, ol, li, footer {
     font-family: 'Montserrat', sans-serif;
     color: #505C5A
 }
@@ -91,4 +91,15 @@ h1, h2, h3, p, ol, li {
     flex-direction: column;
     margin: 20px;
     margin-top: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.heart {
+    color: #DD6E6D;
+    padding-right: 5px;
+    padding-left: 5px;
 }
