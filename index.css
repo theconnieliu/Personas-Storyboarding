@@ -6,6 +6,7 @@ main {
 }
 body {
     background-color: #DDE5D6;
+    line-height: 1.5em;
 }
 h1, h2, h3, p, ol, li {
     font-family: 'Montserrat', sans-serif;
@@ -79,7 +80,8 @@ h1, h2, h3, p, ol, li {
     align-items: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.10));
     color:#767D70;
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 1.3em;
     margin: 10px;
     width: 250px;
 }
@@ -89,5 +91,4 @@ h1, h2, h3, p, ol, li {
     flex-direction: column;
     margin: 20px;
     margin-top: 5px;
-    
 }
